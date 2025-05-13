@@ -35,7 +35,7 @@ public class BookingsController : ControllerBase
     }
     
     
-    // api/appointments
+    // api/bookings
     [HttpPost]
     public async Task<IActionResult> AddBooking([FromBody] AddBookingDTO bookingInput)
     {
